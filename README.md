@@ -1,7 +1,7 @@
 # HabboApp
 Jogue Habbo de forma nativa em computadores com MacOS.
 
-## Como criar o app?
+## Como criar o aplicativo?
 1. Baixe e Instale o NodeJS: https://nodejs.org/
  
 2. Abra o `Terminal` e navegue até a pasta do HabboApp.
@@ -32,10 +32,10 @@ Jogue Habbo de forma nativa em computadores com MacOS.
 10. Pronto! Aplicativo compilado! Abra a pasta `dist` e o seu .dmg estará lá pronto para ser divulgado.
 
 ## Agradecimentos
-Electron
-NodeJS
-Chromium
-Apple
-AsteroidDev
-r4zor
+Electron<br>
+NodeJS<br>
+Chromium<br>
+Apple<br>
+AsteroidDev<br>
+r4zor<br>
 
