@@ -24,6 +24,6 @@ SHORT_URL = habbo.com
 <li>Compile o aplicativo com <code>npm run mac</code></li>
 </ol>
 <br>
-Agradecimentos ao AsteroidDev, Electron, Chromium e Node.JS.
+Agradecimentos ao AsteroidDev, Electron, Chromium, Node.JS e r4zor.
 
 
