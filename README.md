@@ -1,29 +1,41 @@
-# HabboApp-MacOS
-Aplicativo Habbo para MacOS (10+).
+# HabboApp
+Jogue Habbo de forma nativa em computadores com MacOS.
 
-# Como criar o aplicativo?
-<ol>
-<li> Instale o NODE.JS: https://nodejs.org<br></li>
- <br><br>
-<li> Abra o <code>Terminal</code> e navegue até a pasta do HabboApp</li>
-<br><br>
-<li> Após localizar a pasta digite: <code>npm install</code></li>
-<br><br>
-<li> Procure o arquivo <code>package.json</code> e abra-o:<br>
-• productName = Nome do Hotel<br>
-• appId = app.habboapp.r4zor (esse você edita em Main.js!)
-<br><br>
-<li>Abra o config.env e troque os links para o do seu hotel:</li>
-URL = https://www.habbo.com<br>
-SHORT_URL = habbo.com
-  <br><br>
-<li>Edite o home.html em <code>views/home.html</code></li>
-<br><br>
-<li>Teste o aplicativo com <code>npm start</code></li>
- <br><br> 
-<li>Compile o aplicativo com <code>npm run mac</code></li>
-</ol>
-<br>
-Agradecimentos ao AsteroidDev, Electron, Chromium, Node.JS e r4zor.
+## Como criar o app?
+1. Baixe e Instale o NodeJS: https://nodejs.org/
+ 
+2. Abra o `Terminal` e navegue até a pasta do HabboApp.
 
+3. Instale as dependências com: `npm install`
+
+4. Abra o arquivo `package.json` e edite as informações:
+
+    • productName = Nome do Hotel
+    
+    • appId = app.habboapp.r4zor (edite no Main.js!)
+
+5. Abra o arquivo de configuração `config.env` e altere os links:
+
+    URL = https://www.habbo.com
+    
+    SHORT_URL = habbo.com
+    
+6. Edite o arquivo `views/home.html`
+
+7. No `Terminal` digite o seguinte comando para testar o aplicativo: `npm start` 
+
+8. Boa! O aplicativo já deve funcionar normalmente o hotel já deve estar carregando sem problemas.
+
+9. Ainda no `Terminal` digite o comando abaixo para compilar o aplicativo:
+    * `npm run mac` 
+    
+10. Pronto! Aplicativo compilado! Abra a pasta `dist` e o seu .dmg estará lá pronto para ser divulgado.
+
+## Agradecimentos
+Electron
+NodeJS
+Chromium
+Apple
+AsteroidDev
+r4zor
 
